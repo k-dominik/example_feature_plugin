@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_feature_plugin"
+version = "0.0.1"
+authors = [{name="Dominik Kutra", email="dominik.kutra@embl.de" }]
+description = "Example plugin to show rendered state of cookiecutter."
+readme = "README.md"
+
+# TODO: Add your dependencies here:
+dependencies = ["ilastik", "typing_extensions"]
+requires-python = ">=3.9"
+
+
+[project.entry-points."ilastik.objectfeatures"]
+thepackage_features = "example_feature_plugin"

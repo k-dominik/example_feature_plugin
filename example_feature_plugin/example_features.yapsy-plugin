@@ -1,0 +1,8 @@
+[Core]
+Name = example_feature_plugin
+Module = example_features
+
+[Documentation]
+Author = Dominik Kutra
+Version = 0.0.1
+Description = Example plugin to show rendered state of cookiecutter.
