@@ -15,4 +15,7 @@ requires-python = ">=3.9"
 
 
 [project.entry-points."ilastik.objectfeatures"]
-thepackage_features = "example_feature_plugin"
+example_feature_plugin = "example_feature_plugin"
+
+[tool.setuptools.package-data]
+example_feature_plugin = ["*.yapsy-plugin"]
